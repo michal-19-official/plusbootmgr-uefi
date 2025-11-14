@@ -6,6 +6,10 @@
 // and used in this project.
 //
 
+All modification are made by michal19(bootloader.c, makefile) are under GNU Lesser
+General Public License version 3.0. The GPLv3 have been included at the end of this file.
+
+
 The licenses for GNU-EFI can be found in README.efilib in the GNU-EFI folder in
 "Backend," as well as in individual files within the GNU-EFI source package.
 
@@ -27,7 +31,7 @@ does not need to be covered under the GPL. The GPLv3 and LGPLv3 have been
 included at the end of this file.
 
 //=============================================================================
-//  Custom Attribution License ("PD with Credit")
+//  original custom Attribution License ("PD with Credit")
 //=============================================================================
 
 All remaining source not covered by a license is released under the following

@@ -1,19 +1,6 @@
-//==================================================================================================================================
-//  Simple UEFI Bootloader: Main Header
-//==================================================================================================================================
-//
-// Version 2.3
-//
-// Author:
-//  KNNSpeed
-//
-// Source Code:
-//  https://github.com/KNNSpeed/Simple-UEFI-Bootloader
-//
-// This file provides inclusions, #define switches, structure definitions, and function prototypes for the bootloader.
-// See Bootloader.c for further details about this program.
-//
-
+//Plus boot mgr uefi version forked From KNNSpeed's "Simple UEFI Bootloader":
+// https://github.com/KNNSpeed/Simple-UEFI-Bootloader
+// V2.3 13.11 2025
 #ifndef _Bootloader_H
 #define _Bootloader_H
 
@@ -27,8 +14,8 @@
 #include "fat.h"
 #include "dos.h"
 
-#define MAJOR_VER 2
-#define MINOR_VER 3
+#define MAJOR_VER 0
+#define MINOR_VER 0
 
 //==================================================================================================================================
 // Useful Debugging Code
@@ -43,7 +30,7 @@
 //#define ENABLE_DEBUG // Master debug enable switch
 
 // Debug Lite only has the below flag enabled (for main debug binary, leave this commented out and only use the above definition)
-#define FINAL_LOADER_DEBUG_ENABLED
+//#define FINAL_LOADER_DEBUG_ENABLED
 
 #ifdef ENABLE_DEBUG
     #define SHOW_KERNEL_METADATA

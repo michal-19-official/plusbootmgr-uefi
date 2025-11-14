@@ -1,19 +1,6 @@
-//==================================================================================================================================
-//  Simple UEFI Bootloader: DOS PSP Header
-//==================================================================================================================================
-//
-// Author:
-//  KNNSpeed
-//
-// Source Code:
-//  https://github.com/KNNSpeed/Simple-UEFI-Bootloader
-//
-// Adapted from:
-//  http://flint.cs.yale.edu/feng/research/BIOS/Resources/assembly/programsegmentprefix.html
-//
-// Maybe someone will find this useful.
-//
-
+//Plus boot mgr uefi version forked From KNNSpeed's "Simple UEFI Bootloader":
+// https://github.com/KNNSpeed/Simple-UEFI-Bootloader
+// V2.3 13.11 2025
 #define DOS_EXECUTABLE 0x622
 
 // PSP stands for "program segment prefix"

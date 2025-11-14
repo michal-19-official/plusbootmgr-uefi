@@ -1,21 +1,9 @@
-//==================================================================================================================================
-//  Simple UEFI Bootloader: Graphics Functions
-//==================================================================================================================================
-//
-// Version 2.3
-//
-// Author:
-//  KNNSpeed
-//
-// Source Code:
-//  https://github.com/KNNSpeed/Simple-UEFI-Bootloader
-//
-// This file contains the graphics setup code.
-//
-
+//Plus boot mgr uefi version forked From KNNSpeed's "Simple UEFI Bootloader":
+// https://github.com/KNNSpeed/Simple-UEFI-Bootloader
+// V2.3 13.11 2025
 #include "Bootloader.h"
 
-#define GPU_MENU_TIMEOUT_SECONDS 90
+#define GPU_MENU_TIMEOUT_SECONDS 10
 
 STATIC EFI_STATUS apple_set_os(VOID);
 

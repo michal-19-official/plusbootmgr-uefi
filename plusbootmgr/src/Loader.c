@@ -1,18 +1,6 @@
-//==================================================================================================================================
-//  Simple UEFI Bootloader: Kernel Loader and Entry Point Jump
-//==================================================================================================================================
-//
-// Version 2.3
-//
-// Author:
-//  KNNSpeed
-//
-// Source Code:
-//  https://github.com/KNNSpeed/Simple-UEFI-Bootloader
-//
-// This file contains the multiplatform kernel file loader and bootstrapper.
-//
-
+//Plus boot mgr uefi version forked From KNNSpeed's "Simple UEFI Bootloader":
+// https://github.com/KNNSpeed/Simple-UEFI-Bootloader
+// V2.3 13.11 2025
 #include "Bootloader.h"
 
 //==================================================================================================================================
